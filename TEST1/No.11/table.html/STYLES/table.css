@@ -1,0 +1,30 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    /*zebra stripping*/
+
+th,td{
+    border: 1px; color: black;
+    padding: 20px;
+    text-align: center;
+}
+   
+}
+ tr {
+    :vertical(even)
+    background-color: burlywood;
+ }
+
+body{
+    background-color: cadetblue;
+    
+}
+tr:hover{
+    background-color: chartreuse;
+}    
+
+.h1{
+    text-decoration-color: darkgreen;
+    text-align: center;
+}
